@@ -10,6 +10,11 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 
+/**
+ * Main application entry point for all platforms (Android, iOS, Desktop).
+ *
+ * Configures the MaterialTheme, safe area padding, and displays the root game screen.
+ */
 @Composable
 @Preview
 fun App() {
